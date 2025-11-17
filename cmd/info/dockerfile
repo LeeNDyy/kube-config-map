@@ -3,6 +3,6 @@ FROM alpine:3.22
 WORKDIR /app
 
 COPY ./bin/appinfo .
-# RUN chmod 777 ./appapi
+RUN chmod +x ./appinfo
 
 CMD ["/app/appinfo"]

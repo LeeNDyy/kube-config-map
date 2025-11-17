@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: my-app-env-api
+  name: my-app-env-info
   namespace: sirius
 data:
   APP_NAME: "Main app"

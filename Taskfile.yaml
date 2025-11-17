@@ -20,11 +20,11 @@ tasks:
 
   deploy:
     cmds:
-      - kubectl apply -f ./deployments/K8S/config-conf.yaml 
-      - kubectl apply -f ./deployments/K8S/config-env-api.yaml 
-      - kubectl apply -f ./deployments/K8S/config-env-info.yaml 
-      - kubectl apply -f ./deployments/K8S/config-env-login.yaml 
-      - kubectl apply -f ./deployments/K8S/deployment.yaml
+      - kubectl apply -f ./deployments/k8s/config-conf.yaml 
+      - kubectl apply -f ./deployments/k8s/config-env-api.yaml 
+      - kubectl apply -f ./deployments/k8s/config-env-info.yaml 
+      - kubectl apply -f ./deployments/k8s/config-env-login.yaml 
+      - kubectl apply -f ./deployments/k8s/deployment.yaml
 
   release:
     cmds:
